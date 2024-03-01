@@ -1,0 +1,51 @@
+# Static parameters
+static: 
+  mass: 19000 #kg
+  pmax: 370 #kW
+  scx: 8
+  rolling_resistance: 0.01
+  air_density: 1.225
+  frein: 0.1
+# Powertrain parameters
+powertrain:
+  motor_efficiency: 0.9
+  transmission_efficiency: 0.95
+# Battery parameters
+battery:
+  battery_capacity: 266000  # in Watt-hours
+  mass_battery: 800
+  charge_efficiency: 0.95
+  discharge_efficiency: 0.95
+  capacity: 12  # in Watt-hours
+  chemistry: 'Li-ion'  # e.g., "Lithium-ion"
+  charging_efficiency: 0.95
+  discharging_efficiency: 0.95
+  thermal_management_efficiency: 0.9
+  # Thermal management parameters
+thermal:
+  ambient_temperature: 298.15 
+  motor_cooling_efficiency: 0.85
+  battery_cooling_efficiency: 0.90
+# Power supply chain parameters
+supply:
+  charger_efficiency: 0.92
+  inverter_efficiency: 0.95
+  energy_aux: 5 #kW
+# Fuel Cell parameters
+fuelcell:
+  mass_fc: 45
+  chemistry: 'PEMFC'
+  temp: 343.35 
+  N: 370 #Nb cells
+  active_area: 50 #cm^2
+# eCompressor parameters
+eCompressor:
+  isentropic_eff: 0.75
+  power: 25 #kW
+  mass_comp: 20 #kg
+  T1: 298.15
+  P2C: 160000 #Pa
+  P1C: 101325 #Pa 
+  x_o2: 0.21
+  x_n2: 0.79
+  m_air: 80 #g/s
