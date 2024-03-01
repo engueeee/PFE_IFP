@@ -1,0 +1,8 @@
+matplotlib
+opem
+thermo
+numpy
+pandas
+sympy
+yaml
+pybamm
